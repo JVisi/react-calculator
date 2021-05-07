@@ -1,0 +1,28 @@
+.Calculator{
+    display: grid;
+    grid-template-columns: 7vw 7vw 7vw 7vw;
+    grid-template-rows: 7vw 7vw 7vw 7vw;
+    justify-content: center;
+}
+.operator{
+    font-size: 3.5vw;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+.longTile{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.number{
+    font-size: 3.5vw;
+    width: 100%;
+    height: 100%;
+}
+p{
+    word-wrap: break-word;
+    font-size: 2.5vw;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
